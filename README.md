@@ -8,16 +8,22 @@ My app is called Studio Ghibli Database. It's an app for people who want to lear
 
 ### Home
 
+![Homepage](imgs/Project-2-homepage.png)
+
 ### Movies List
 
+![Movie list](imgs/Project-2-movielist.png)
+
 ### Movie Detail
+
+![Movie detail](imgs/Project-2-movie.png)
 
 ### MVP User Stories
 
 _**MVP User Stories**_
 
 - _As a user, I want to see a listing of all the movies Studio Ghibli has made._
-- _As a user, I want to click on a specific movie and read a description of the movie._
+- _As a user, I want to click on a specific movie and read a description of the movie and further details like, director, Rotten Tomato score, and release date._
 - _As a user, I want to easily navigate the movies on my mobile device so I can view movie details._
 
 _**Post MVP Stretch Goal**_
