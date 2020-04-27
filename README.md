@@ -73,3 +73,4 @@ _**Post MVP Stretch Goal**_
 | Homepage   | This will render the homepage                                    |    Props    |
 | MoviesList | This will render all of the movies                               |    Props    |
 | Movie      | This will render an individual movie                             |    Props    |
+# project-2
