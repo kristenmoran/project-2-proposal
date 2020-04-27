@@ -40,28 +40,36 @@ _**Post MVP Stretch Goal**_
 ### API Sample Response
 
 ```json
-film {
-id: "2baf70d1-42bb-4437-b551-e5fed5a87abe",
-title: "Castle in the Sky",
-description: "The orphan Sheeta inherited a mysterious crystal that links her to the mythical sky-kingdom of Laputa. With the help of resourceful Pazu and a rollicking band of sky pirates, she makes her way to the ruins of the once-great civilization. Sheeta and Pazu must outwit the evil Muska, who plans to use Laputa's science to make himself ruler of the world.",
-director: "Hayao Miyazaki",
-producer: "Isao Takahata",
-release_date: "1986",
-rt_score: "95",
-people: [
-"https://ghibliapi.herokuapp.com/people/"
-],
-species: [
-"https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2"
-],
-locations: [
-"https://ghibliapi.herokuapp.com/locations/"
-],
-vehicles: [
-"https://ghibliapi.herokuapp.com/vehicles/"
-],
-url: "https://ghibliapi.herokuapp.com/films/2baf70d1-42bb-4437-b551-e5fed5a87abe"
-},
+{
+	"film": {
+		"id": "2baf70d1-42bb-4437-b551-e5fed5a87abe",
+		"title": "Castle in the Sky",
+		"description": "The orphan Sheeta inherited a mysterious crystal that links her to the mythical sky-kingdom of Laputa. With the help of resourceful Pazu and a rollicking band of sky pirates, she makes her way to the ruins of the once-great civilization. Sheeta and Pazu must outwit the evil Muska, who plans to use Laputa's science to make himself ruler of the world.",
+		"director": "Hayao Miyazaki",
+		"producer": "Isao Takahata",
+		"release_date": "1986",
+		"rt_score": "95",
+		"people": ["https://ghibliapi.herokuapp.com/people/"],
+		"species": [
+			"https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2"
+		],
+		"locations": ["https://ghibliapi.herokuapp.com/locations/"],
+		"vehicles": ["https://ghibliapi.herokuapp.com/vehicles/"],
+		"url": "https://ghibliapi.herokuapp.com/films/2baf70d1-42bb-4437-b551-e5fed5a87abe"
+	}
+}
 ```
 
 ## Component Hierarchy
+
+![image](imgs/ComponentHierarchy.png)
+
+### Component Details
+
+| Component  | Description                                                      | State/Props |
+| ---------- | ---------------------------------------------------------------- | :---------: |
+| App        | This will make the initial data request and include React Router |    State    |
+| Header     | This will render the header include the nav                      |    Props    |
+| Homepage   | This will render the homepage                                    |    Props    |
+| MoviesList | This will render all of the movies                               |    Props    |
+| Movie      | This will render an individual movie                             |    Props    |
