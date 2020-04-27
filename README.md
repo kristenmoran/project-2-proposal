@@ -62,7 +62,7 @@ _**Post MVP Stretch Goal**_
 
 ## Component Hierarchy
 
-![image](imgs/componentHierarchy.png)
+![image](imgs/component-hierarchy.png)
 
 ### Component Details
 
